@@ -1,0 +1,40 @@
+/*variabel*/
+:root{
+    --warna-utama:#c077b4;
+    --warna-gelap:#0f0f0f;
+}
+/*Reset Css*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+section{
+    padding: 70px 0;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: var(--warna-utama);
+}
+.header-section .header-title{
+    color: var(--warna-utama)
+}
+.header-section .header-title-2{
+    color: var(--warna-gelap);
+}
+.header-section .header-skill{
+    color: var(--warna-gelap);
+    text-decoration: none;
+}
+.header-section .header-skill:hover{
+    color: var(--warna-utama);
+}
+.header-section .header-skill i{
+    transition: .3s;
+}
+.header.section .header-skill:hover i{
+    transform: rotate(45deg);
+}
+.header-section .header-img{
+    width:40%
+}
