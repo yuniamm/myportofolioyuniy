@@ -38,3 +38,15 @@ section{
 .header-section .header-img{
     width:40%
 }
+.btn-purple{
+    background-color: var(--warna-utama);
+    font-weight:bold;
+    text-transform: uppercase;
+}
+.btn-purple:hover{
+    border-color: var(--warna-utama);
+}
+.portfolio-section{
+    background-color: var(--warna-utama);
+    margin-top:-10px;
+}
